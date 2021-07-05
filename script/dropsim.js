@@ -12,7 +12,7 @@ function randInt(max) {
     return Math.floor(Math.random() * max);
 }
 
-
+// Run clicked, results populated
 button.onclick = function() {
     resultTxt.textContent = 'Results:';
     shakoImg.src = ""
