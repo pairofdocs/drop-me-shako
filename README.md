@@ -4,3 +4,6 @@ It uses drop odds for a Shako from the [MFB DropCalc](http://mfb.bplaced.net/dro
 
 ## Play
 [![Drop-me-shako](./img/screenshot-shakofound.png)](https://pairofdocs.github.io/drop-me-shako/)
+
+## Offline Drop Simulator
+A more complete boss drop simulator offline app is here https://github.com/pairofdocs/d2-drop-simulator
