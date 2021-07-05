@@ -20,8 +20,7 @@ button.onclick = function() {
     for (let i = 0; i < 100; i++) {
         num = randInt(912); // min-0 and max-911
         if (num === 911) {
-            resultTxt.textContent += ' Shako found on run ' + i.toString() + '!'; // multiple shako drops allowed
-            
+            resultTxt.textContent += ' Shako found on run ' + (i+1).toString() + '!'; // multiple shako drops allowed
             shakoImg.src = "img/shako.png"
         }
     }
