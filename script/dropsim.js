@@ -28,6 +28,6 @@ button.onclick = function() {
         }
     }
     if (!resultTxt.textContent.includes('Shako')) {
-        resultTxt.textContent += " Hahaha you're too late! Run again";
+        resultTxt.textContent += "You're too late! *Meph Laugh* Run again";
     }
 }
