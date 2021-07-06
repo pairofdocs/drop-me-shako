@@ -2,6 +2,8 @@
 let button = document.querySelector('button');
 let resultTxt = document.querySelector('.results');  // select class with .{}
 let shakoImg = document.querySelector('.shako');
+let audioEl = document.getElementById('chestsound');  // bug with script being placed before html element
+// let audioEl = new Audio('sound/zelda-chest.ogg');
 
 // clear results
 resultTxt.textContent = 'Results:';
@@ -22,6 +24,7 @@ button.onclick = function() {
         if (num === 911) {
             resultTxt.textContent += ' Shako found on run ' + (i+1).toString() + '!'; // multiple shako drops allowed
             shakoImg.src = "img/shako.png"
+            audioEl.play();
         }
     }
     if (!resultTxt.textContent.includes('Shako')) {
